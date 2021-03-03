@@ -1,0 +1,4 @@
+.jshintrc/
+.DS_Store
+.idea
+*.iml
