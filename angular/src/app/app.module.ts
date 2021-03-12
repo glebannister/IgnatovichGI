@@ -34,6 +34,7 @@ import { NotFoundComponent } from './not-found-component';
 import { CommentService } from './comment-shared/comment.service';
 import { StarRatingComponent } from './star-rating/star-rating/star-rating.component';
 import { YouToubeComponent } from './youtoube/you-toube.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 export function provideConfig() {
   let config = new AuthServiceConfig([
@@ -66,6 +67,7 @@ export function provideConfig() {
     NotFoundComponent,
     StarRatingComponent,
     YouToubeComponent,
+    ContactsComponent,
     
   ],
   imports: [

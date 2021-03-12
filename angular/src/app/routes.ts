@@ -12,6 +12,7 @@ import { CompanyByCategoryComponent } from './company-builder/company-by-categor
 import { CommentComponent } from './comments/comment/comment.component';
 import { NotFoundComponent } from './not-found-component';
 import { StarRatingComponent } from './star-rating/star-rating/star-rating.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 export const appRoutes: Routes = [
     {
@@ -37,6 +38,9 @@ export const appRoutes: Routes = [
     },
     { 
         path: 'companybycategory/:param', component: CompanyByCategoryComponent 
+    },
+    {
+        path: 'contacts', component: ContactsComponent 
     },
     {
         path: '', component: AllCompaniesComponent

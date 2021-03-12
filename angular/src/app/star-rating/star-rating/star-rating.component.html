@@ -5,7 +5,7 @@
     <span class="star" [class.filled]="fill === 100" >&#9733;</span>
   </ng-template>
 </ngb-rating>
-<pre text>Rate: <b>{{currentRate}}</b></pre>
+<pre text *ngIf="currentRate>=0">Rate: <b>{{currentRate}}</b></pre>
 </div>
 
 
